@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#home {
+    
+    background-image: linear-gradient(to bottom right, #C2D56E, #DDA247, #56BCD9, #DA48A1);
+    background-repeat: no-repeat;
+}
+
+/* menu */
+
+header {
+    background-color: #272727;
+    color: #DA48A1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 4px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #DA48A1;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.nav a:hover {
+    /*sublinhado no menu*/
+    border-bottom: 5px solid #C2D56E;
+}
+
+.nav a.ativa {
+    border-bottom: 5px solid #C2D56E;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #3a3939c7;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+/* fim do menu */
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+section {
+    display: flex;
+}
+
+.photo {
+    display: flex;
+    width: 500px;
+}
+
+
+
+
+/*fim foto*/
+
+
+
+footer {
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #DA48A1;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #272727;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #272727;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #444;
+    margin-top: 20px;
+}
+
+.featurectt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.featurectt {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.featurectt h2 {
+    font-size: 24px;
+    color: #C2D56E;
+    /*letra dos bloquinhos*/
+}
+
+.featurectt p {
+    font-size: 16px;
+    color: #444;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.feature h2 {
+    font-size: 24px;
+    color: #DA48A1;
+    /*letra dos bloquinhos*/
+    text-align: center;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #444;
+}
+
+.feature2 {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.feature2 h2 {
+    font-size: 24px;
+    color: #56BCD9;
+    /*letra dos bloquinhos*/
+    text-align: center;
+}
+
+.feature2 p {
+    font-size: 16px;
+    color: #444;
+}
+
+.feature3 {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.feature3 h2 {
+    font-size: 24px;
+    color: #DDA247;
+    /*letra dos bloquinhos*/
+    text-align: center;
+}
+
+.feature3 p {
+    font-size: 16px;
+    color: #444;
+}
+
+.feature1 {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.feature1 h2 {
+    font-size: 24px;
+    color: #C2D56E;
+    /*letra dos bloquinhos*/
+    text-align: center;
+}
+
+.feature1 p {
+    font-size: 16px;
+    color: #444;
+}
+
+.featuretab {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.featuretab table {
+    margin-left: 13vw;
+}
+
+.featuretab h2 {
+    font-size: 24px;
+    color: #DA48A1;
+    /*letra dos bloquinhos*/
+    text-align: center;
+}
+
+.featuretab p {
+    font-size: 16px;
+    color: #444;
+}
+
+
+/* botão de volta*/
+.volta {
+    position: relative;
+    transform: translate(93%, 150%);
+}
+
+/* text area */
+.contato textarea {
+    resize: none;
+}
+
+/*formulario*/
+
+.featurectt textarea {
+    resize: none;
+}
+
+.featurectt h2 {
+    font-size: 24px;
+    color: #C2D56E;
+    text-align: center;
+}
+
+/*foto do home*/ 
+
+.creative-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.creative-image {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.creative-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.creative-image:hover img {
+    transform: scale(1.1);
+}
+
+/*resposta*/
+
+.button {
+    display: inline-block;
+    background-color: #C2D56E;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d0e964;
+}
+
+.heroctt {
+    text-align: center;
+    padding: 20px;
+}
+
+.heroctt h1 {
+    font-size: 40px;
+    color: #DDA247;
+}
+
+/*ancora*/ 
+
+.button2 {
+    position: relative;
+    font-size: 30px;
+    padding-left: 95% ;
+}
+
+
+/* RESPONSIVIDADE*/
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="icon"  type="image/jpg" href="img/iconcontato.png"/>
+    <title>Contato </title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" href="index.html" >Placa de Vídeo</a>
+        </div>
+    </header>
+    
+    <div class="nav">
+        <ul>
+            <li><a href="index.html" > Home </a></li>
+            <li><a href="sobre.html"> Sobre </a></li>
+            <li><a href="modelos.html"> Modelos </a></li>
+            <li><a href="contato.html"class="ativa">Contato</a></li>
+        </ul>
+    </div>
+
+    <section class="features">
+        <div class="container">
+            <div class="featurectt">
+                   <form name="contato" action="resposta.html" method="post">  <!--o controle label=etiqueta ajuda a acessibilidade: leitor de tela leem este item-->
+                    <table border="0">
+                        <h2> Entre em contato:</h2>  <br><br>
+                       <tr><td> <label>Nome</td></tr>
+                       <tr><td><input type="text " required ="required" name="nome" id="text1" size="50" placeholder="Preencha aqui o seu nome!" autofocus /></label></td> </tr>   
+                       <tr><td><label>E-mail</td></tr>
+                       <tr><td><input type="email" required ="required" name="email" id="text2" size="50" placeholder="Preencha aqui o seu email!" autofocus /></label> </td></tr>
+                       <tr> <td> <label>Assunto</td></tr>
+                      <tr><td><input type="text" required ="required" name="assunto" id="text3" size="50" placeholder="Preencha  aqui o assunto " required autofocus /></label></td> </tr>
+                      <tr> <td> <label>Comentário</td></tr>
+                      <tr>	 <td><textarea  id="textarea" name="textarea "   rows ="9" cols="50"   placeholder="Deixe aqui seu comentário."></textarea></td></label></tr>
+                     <tr> <td><input type="submit"  value="Enviar"></td> </tr>
+              </table>
+              </form>
+            </div>
+        </div>
+    </section>
+
+  
+    
+    <footer>
+        <div class="container">
+            <p> Ana Júlia Miguel Silva - &copyTodos os direitos reservados <br> Trabalho acadêmico - sem fins lucrativos </p>
+        </div>
+    </footer>
+</body>
+</html>
